@@ -3,7 +3,7 @@
     "background": "wall.png"
   },
   {
-    "background": "1.1.png",
+    "background": "p1.png",
     "objects": [
       {
         "img": "1.2.png",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "background": "5.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "5.2.png",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "background": "9.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "9.2.png",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "background": "14.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "14.2.png",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "background": "6.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "6.2.png",
@@ -249,7 +249,7 @@
     "background": "wall.png"
   },
   {
-    "background": "18.1.png",
+    "background": "p1.png",
     "objects": [
       {
         "img": "18.2.png",
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "background": "22.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "22.2.png",
@@ -297,7 +297,7 @@
     ]
   },
   {
-    "background": "16.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "16.2.png",
@@ -321,7 +321,7 @@
     ]
   },
   {
-    "background": "41.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "41.2.png",
@@ -345,7 +345,7 @@
     ]
   },
   {
-    "background": "23.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "23.2.png",
@@ -495,7 +495,7 @@
     "background": "wall.png"
   },
   {
-    "background": "7.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "7.2.png",
@@ -519,7 +519,7 @@
     ]
   },
   {
-    "background": "27.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "27.2.png",
@@ -543,7 +543,7 @@
     ]
   },
   {
-    "background": "4.1.png",
+    "background": "p1.png",
     "objects": [
       {
         "img": "4.2.png",
@@ -567,7 +567,7 @@
     ]
   },
   {
-    "background": "31.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "31.2.png",
@@ -591,7 +591,7 @@
     ]
   },
   {
-    "background": "42.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "42.2.png",
@@ -741,7 +741,7 @@
     "background": "wall.png"
   },
   {
-    "background": "28.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "28.2.png",
@@ -765,7 +765,7 @@
     ]
   },
   {
-    "background": "40.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "40.2.png",
@@ -789,7 +789,7 @@
     ]
   },
   {
-    "background": "34.1.png",
+    "background": "p1.png",
     "objects": [
       {
         "img": "34.2.png",
@@ -813,7 +813,7 @@
     ]
   },
   {
-    "background": "57.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "57.2.png",
@@ -837,7 +837,7 @@
     ]
   },
   {
-    "background": "53.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "53.2.png",
@@ -987,7 +987,7 @@
     "background": "wall.png"
   },
   {
-    "background": "38.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "38.2.png",
@@ -1011,7 +1011,7 @@
     ]
   },
   {
-    "background": "49.1.png",
+    "background": "p1.png",
     "objects": [
       {
         "img": "49.2.png",
@@ -1035,7 +1035,7 @@
     ]
   },
   {
-    "background": "48.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "48.2.png",
@@ -1059,7 +1059,7 @@
     ]
   },
   {
-    "background": "44.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "44.2.png",
@@ -1083,7 +1083,7 @@
     ]
   },
   {
-    "background": "63.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "63.2.png",
@@ -1233,7 +1233,7 @@
     "background": "wall.png"
   },
   {
-    "background": "60.1.png",
+    "background": "p3.png",
     "objects": [
       {
         "img": "60.2.png",
@@ -1257,7 +1257,7 @@
     ]
   },
   {
-    "background": "61.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "61.2.png",
@@ -1281,7 +1281,7 @@
     ]
   },
   {
-    "background": "33.1.png",
+    "background": "p1.png",
     "objects": [
       {
         "img": "33.2.png",
@@ -1305,7 +1305,7 @@
     ]
   },
   {
-    "background": "8.1.png",
+    "background": "p2.png",
     "objects": [
       {
         "img": "8.2.png",
@@ -1329,7 +1329,7 @@
     ]
   },
   {
-    "background": "47.1.png",
+    "background": "p4.png",
     "objects": [
       {
         "img": "47.2.png",
