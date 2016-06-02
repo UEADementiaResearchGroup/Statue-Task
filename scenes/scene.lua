@@ -10,6 +10,7 @@ local ipairs=ipairs
 local graphics=graphics
 local timer=timer
 local os=os
+local native=native
 
 local scenedata=require "scenedata"
 local emailcsv=require "util.emailcsv"
@@ -54,6 +55,14 @@ function scene:show(event)
 
   local bg=display.newImage(scene.view,"img/"..layout.background)
   bg:translate(display.contentCenterX, display.contentCenterY)
+  local info=display.newGroup()
+  scene.view:insert(info)
+  local textY=0
+  local t=display.newText({parent=info,text="Background: ".. layout.background,font=native.systemFont,fontSize=25})
+  t.anchorX=0
+  t.anchorY=0
+  t:setTextColor(0)
+  textY=t.height
   if not layout.objects then
     bg:addEventListener("tap", function() 
       for i=scene.view.numChildren,1, -1 do 
@@ -70,6 +79,13 @@ function scene:show(event)
     obj:translate(display.contentCenterX+(v.x or 0), display.contentCenterY+(v.y or 0))
     obj:scale((v.scale or 1) * (v.mirror and -1 or 1),v.scale or 1)
     obj.info=v.name
+    local t=display.newText({parent=info,text="Object: ".. v.img,font=native.systemFont,fontSize=25})
+    t.anchorX=0
+    t.anchorY=0
+    t.y=textY
+    t:setTextColor(0)
+    textY=textY+t.height
+    
     if not v.no_tap then
       obj:addEventListener("tap", tap)
     end
@@ -79,6 +95,11 @@ function scene:show(event)
       obj.isHitTestMasked=true
     end
   end
+  info.anchorChildren=true
+  info.anchorX=0
+  info.anchorY=1
+  info:toFront()
+  info:translate(bg.x-bg.contentWidth/2+20, bg.y+bg.contentHeight/2-20)
   self.alpha=0
   transition.to(self.view,{alpha=1})
 end
